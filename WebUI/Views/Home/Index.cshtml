@@ -9,48 +9,7 @@
 <!-- /main-slider -->
     <!-- //banner-slider-->
     <!--/grids-->
-    <section class="w3l-grids-3 py-5">
-        <div class="container py-md-5">
-            <div class="title-content text-left mb-lg-5 mb-4">
-
-                <h3 class="hny-title">Sizin için uygun olanı seçin.</h3>
-            </div>
-            <div class="row bottom-ab-grids">
-                <!--/row-grids-->
-                <div class="col-lg-6 subject-card mt-lg-0 mt-4">
-                    <div class="subject-card-header p-4">
-                        <a href="#" class="card_title p-lg-4d-block">
-                            <div class="row align-items-center">
-                                <div class="col-sm-5 subject-img">
-                                    <img src="~/Traversal-Starter/assets/images/g1.jpg" class="img-fluid" alt="" width="170px" height="220px">
-                                </div>
-                                <div class="col-sm-7 subject-content mt-sm-0 mt-4">
-                                    <h4>Yetişkinler İçin</h4>
-                                    <p class="sub-para">Size uygun hizmet için bize ulaşın.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-6 subject-card mt-lg-0 mt-4">
-                    <div class="subject-card-header p-4">
-                        <a href="#" class="card_title p-lg-4d-block">
-                            <div class="row align-items-center">
-                                <div class="col-sm-5 subject-img">
-                                    <img src="~/Traversal-Starter/assets/images/g2.jpg" class="img-fluid" alt="" width="170px" height="220px">
-                                </div>
-                                <div class="col-sm-7 subject-content mt-sm-0 mt-4">
-                                    <h4>Çocuklar İçin</h4>
-                                    <p class="sub-para">Size uygun hizmet için bize ulaşın.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <!--//row-grids-->
-            </div>
-        </div>
-    </section>
+@await Component.InvokeAsync("_Options")
     <!--//grids-->
     <!-- stats -->
 @await Component.InvokeAsync("_Statistics")
